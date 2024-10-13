@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", "Open Sans", sans-serif ;
+    background-color: #b88566;
+    color: #333;
+    padding: 20px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+.shopping {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 30px;
+   
+}
+.box-content {
+    flex-basis: calc(25% - 20px);
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.box-content:hover {
+    transform: scale(1.05);
+}
+.box-content img {
+    width: 250px; /* Fixed width */
+    height: 250px; /* Fixed height */
+    /* object-fit: cover; Ensure the image retains aspect ratio */
+    border-radius: 8px;
+}
+.box-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.box-content p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+.box-content h4 {
+    font-size: 20px;
+    color: #A52A2A;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.btn {
+    background-color: #c49374;   
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #A52A2A;
+}
+@media (max-width: 768px) {
+    .box-content {
+        flex-basis: calc(50% - 20px);
+    }
+}
+@media (max-width: 480px) {
+    .box-content {
+        flex-basis: 100%;
+    }
+    h1 {
+        font-size: 28px;
+    }
+}
