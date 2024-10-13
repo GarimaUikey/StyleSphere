@@ -1,0 +1,330 @@
+
+  /* .banner-text{
+    color:white;
+    padding:15px 30px ;
+    text-align: center;
+    
+  } */
+
+  .main-nav{
+    /* margin-top: 20px; */
+  justify-content: space-between;
+
+  }
+  .company-logo img{
+    width: 60px;
+    height: 60px;
+  }
+
+.nav-links{
+ flex-basis: 700px;
+}
+
+  .nav-links ul{
+    justify-content: end;
+    gap:40px ;
+    margin-right: 10px;
+  }
+  .small-bold-text{
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .container{
+    max-width: 1180px;
+    margin-inline:auto;
+    padding-inline: var(--padding-inline-section);
+
+
+  }
+
+  .flex{
+    display:flex;
+    align-items: center;
+  }
+
+  .hover-links{
+/* color:var(--primary-text-color);     */
+    transition:0.2s ease-out;
+  }
+  
+  .card1{
+    height: 846px;;
+    width:1450px;
+    /* background-color: maroon; */
+
+  }
+  /* .card3{
+    text-align: right;
+    color: aliceblue;
+    background: #000;
+  } */
+   .section{
+    height: 380px;
+    background-color:#fff1f0;
+    justify-content: space-between;
+    padding-top: 10px;
+   }
+   .women{
+    background-color:#ffd7d7;
+    margin: 15px;
+    display: inline-block;
+    width: 198px;
+    height: 280px;
+    border-radius: 10px;
+    text-align: center;
+   }
+   .m1{
+    width: 198px;
+    height: 210px;
+   }
+   h2{
+    color: brown;
+    text-align: center;
+   }
+  .sale{
+    background-color:#b88566;
+    height: 320px;
+    justify-content: space-between;
+    padding-top: 10px;
+   
+  }
+  .banner{
+    background-color: antiquewhite;
+    margin: 15px;
+    display: inline-block;
+    width: 350px;
+    height: 210px;
+    border-radius: 10px;
+  }
+  .b1{
+    height: 210px;
+    width: 350px;
+  }
+  footer{
+    padding-block: 80px;
+    background-color:#efe7da;
+}
+
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.footer-container{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.subfooter{
+    background-color: #b9cde4;
+    padding:var(--padding-inline-section);
+}
+.subfooter-container{
+    justify-content: center;
+    gap:30px;
+
+}
+.header-left{
+  padding-left: 25px;
+}
+.hover-links{
+  text-decoration: none;
+  color: black;
+}
+/* #btn{
+  background-color: #b88566;
+  color: white;
+  width: 60px;
+  height: 40px;
+} */
+ .btn{
+  background-color: #b06d43;
+  color: white;
+  height: 35px;
+  width: 130px;
+  border: 0.5 solid white;
+  border-radius: 7px;
+ }
+ .btn:hover{
+  background-color: #b06d43;
+ }
+ .button1{
+  height: 30px;
+  width: 90px;
+  /* background-color: #b88566; */
+  /* color: white; */
+  border-radius: 7px;
+ }
+ .button2{
+  height: 45px;
+  width: 100px;
+  /* background-color: #b88566; */
+  background-size: 100px;
+  /* color: white; */
+  border-radius: 7px;
+ }
+ /* .button1 :hover{
+  background-color: #b06d43;
+ } */
+ .button2{
+  color: white;
+  /* border: 0.5 solid #b88566; */
+ }
+ .button1{
+  color: white;
+ }
+ .yoyo{
+  height: 28px;
+  width: 75px;
+  background-color: #b88566;
+  text-align: center;
+  padding-top: 6px;
+  border-radius: 7px;
+  border: 0.5 solid #b06d43;
+ }
+ .yoyo:hover{
+  background-color: #b06d43;
+ }
+ /* .y1{
+  background-color: white;
+  color: #b06d43;
+  border: 1 solid #b06d43;
+ } */
+  /* General Styling */
+.navbar {
+  background-color: #fff; /* Light background for the navbar */
+  padding: 1px 0;
+  position: relative;
+}
+
+.main-nav {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-logo img {
+  width: 60px;
+  height: 60px;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.hover-links {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+.hover-links:hover {
+  color: #b88566;
+}
+
+/* Call-to-Action Buttons */
+.cta-buttons {
+  gap: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn {
+  background-color: transparent;
+  color: #b88566;
+  border: 2px solid #b88566;
+}
+
+.login-btn:hover {
+  background-color: #b88566;
+  color: white;
+}
+
+.signup-btn {
+  background-color: #b88566;
+  color: white;
+  border: none;
+}
+
+.signup-btn:hover {
+  background-color: #b06d43;
+}
+
+/* Mobile Hamburger Menu */
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger-menu .bar {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+/* Mobile Dropdown Navigation */
+.mobile-nav-links {
+  display: none;
+  flex-direction: column;
+  background-color: #fff;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-nav-links li {
+  padding: 10px 0;
+}
+
+.mobile-nav-links a {
+  font-weight: 600;
+  color: black;
+}
+
+.mobile-login-btn, .mobile-signup-btn {
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .nav-links, .cta-buttons {
+      display: none;
+  }
+
+  .hamburger-menu {
+      display: flex;
+  }
+
+  .hamburger-menu.active + .mobile-nav-links {
+      display: flex;
+  }
+}
+
+.header-section {
+  background-color: #d89971;
+  color: white;
+}
+.down{
+  text-align: center;
+  background-color: #ffd7d7;
+}
